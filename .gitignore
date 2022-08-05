@@ -1,0 +1,4 @@
+cdk-ts/cdk.out/*
+cdk-ts/cdk.out
+cdk-ts/node_modules
+cdk-ts/node_modules/*

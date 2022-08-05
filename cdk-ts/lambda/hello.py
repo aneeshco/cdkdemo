@@ -3,11 +3,11 @@ import mymodule
 
 def handler(event, context):
     print('request: {}'.format(json.dumps(event)))
-    mymodule.hello()
+    print(f" Output from layer: {mymodule.hello()}")
     return {
         'statusCode': 200,
         'headers': {
             'Content-Type': 'text/plain'
         },
-        'body': 'Testing hotswap, CDK! You have hit {}\n'.format(event['path'])
+        'body': 'Testing v2, CDK! You have hit {}\n'.format(event['path'])
     }

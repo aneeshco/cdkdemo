@@ -1,2 +1,2 @@
 def hello():
-    print('From inner module')
+    print('From inner module v2')
